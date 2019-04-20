@@ -1,0 +1,47 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">FreshFoodCart</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_in">Signin</string>
+    <string name="resetpswd">Forget Password</string>
+    <string name="register">Register</string>
+    <string name="Button">Button</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="item">Item</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="pay_now">PayNow</string>
+    <string name="quantity">Quantity</string>
+    <string name="initial_quantity_value">0</string>
+    <string name="order">Order</string>
+    <string name="order_summary_name">Item: <xliff:g example="Apple" id="item">%s</xliff:g></string>
+    <string name="order_summary_delivery">Cash On Delivery: <xliff:g example="Yes" id="cashondelivery">%b</xliff:g></string>
+    <string name="order_summary_paynow">Pay Now: <xliff:g example="Yes" id="paynow">%b</xliff:g></string>
+    <string name="order_summary_quantity">Quantity: <xliff:g example="0" id="quantity">%d</xliff:g></string>
+    <string name="order_summary_price">Total: <xliff:g example="$10" id="price">%s</xliff:g></string>
+    <string name="thank_you">Thank you!</string>
+    <string name="order_summary_email_subject">Item Name: <xliff:g example="Apple" id="item">%s</xliff:g></string>
+</resources>

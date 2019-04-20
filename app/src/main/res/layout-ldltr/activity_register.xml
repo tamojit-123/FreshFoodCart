@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/bck1"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtName"
+        android:hint="Enter Password"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtPassword"
+        android:hint="Enter Email" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtEmail"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="67dp"
+        android:layout_marginRight="29dp"
+        android:background="#FFEA00"
+        android:text="@string/register" />
+
+    <TextView
+        android:id="@+id/txtForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="343dp"
+        android:clickable="true"
+        android:onClick="goToForgot"
+        android:text="@string/forgot_password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff3b5998"
+        tools:ignore="OnClick"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/btnSignUP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/sign_in"
+        android:background="#FFEA00"/>
+
+</RelativeLayout>
