@@ -27,11 +27,9 @@ public class UserActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent sharingIntent = new Intent(Intent.ACTION_SEND);
-                sharingIntent.setType("text/plain");
-                sharingIntent.putExtra(Intent.EXTRA_TEXT, "This is Online Grocery Item Ordering App, Download link:" + "https://drive.google.com/open?id=1Gdo1POMa9wsxefVX7k6NuqCyNLdZy1td");
-                sharingIntent.setPackage("com.whatsapp");
-                startActivity(sharingIntent);
+                Intent map = new Intent(UserActivity.this, MapsActivity.class);
+                startActivity(map);
+                startActivity(map);
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
